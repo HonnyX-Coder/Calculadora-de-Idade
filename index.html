@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Idades</title>
+  </head>
+  <body>
+    <h1>Calculadora de Idades</h1>
+    <p>Lista das idades:</p>
+    <ul>
+      <li>Infantil (0-12 anos)</li>
+      <li>Adolescente (13-17 anos)</li>
+      <li>Adulto (18-64 anos)</li>
+      <li>Idoso (65+ anos)</li>
+    </ul>
+
+    <input type="text" id="ValorCaixa" placeholder="Coloque a idade aqui" />
+    <button onclick="calcular()">Calcular</button>
+
+    <p>
+      A idade <span id="MostrarNumero"></span> é <span id="Resultado"></span>.
+    </p>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
